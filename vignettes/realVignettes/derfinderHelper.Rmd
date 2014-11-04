@@ -33,7 +33,7 @@ cite_options(hyperlink = 'to.doc', citation_format = 'text', style = 'html')
 
 ## Write bibliography information
 bibs <- c(knitcitations = citation('knitcitations'),
-    derfinderHelper = citation('derfinderHelper'), 
+    derfinderHelper = citation('derfinderHelper')[1], 
     knitrBootstrap = citation('knitrBootstrap'), 
     knitr = citation('knitr')[3],
     rmarkdown = citation('rmarkdown'),
@@ -58,7 +58,7 @@ names(bib) <- names(bibs)
 
 `derfinderHelper` `r citep(bib[['derfinderHelper']])` is a small package that was created to speed up the parent package `derfinder`. It contains a single function, `fstats.apply()`, which is used to calculate the F-statistics for a given data matrix, null and an alternative models.
 
-The data is generally arranged in an matrix where the rows ($n$) are the genomic features of interest (gene level summaries, exon level summaries, or base-pair data) and the columns ($m$) represent the samples. The other two main arguments for `fstats.apply()` are the null and alternative model matrices which are $m x p_0$ and $m x p$  where $p_0$ is the number of covariates in the null model and $p$ is the number of covariates in the alternative model. The models have to be nested and thus by definition $p > p_0$. The end result is a vector of F-statistics with length $n$, which is run length encoded for memory saving purposes.
+The data is generally arranged in an matrix where the rows ($n$) are the genomic features of interest (gene level summaries, exon level summaries, or base-pair data) and the columns ($m$) represent the samples. The other two main arguments for `fstats.apply()` are the null and alternative model matrices which are $m \times p_0$ and $m \times p$  where $p_0$ is the number of covariates in the null model and $p$ is the number of covariates in the alternative model. The models have to be nested and thus by definition $p > p_0$. The end result is a vector of F-statistics with length $n$, which is run length encoded for memory saving purposes.
 
 Other arguments of `fstats.apply()` are related to flow in `derfinder` such as the scaling factor (`scalefac`) used, whether to subset the data (`index`), and if the data was separated into chunks and saved to disk to lower the memory load (`lowMemDir`).
 

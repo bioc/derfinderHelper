@@ -1,0 +1,30 @@
+pkgVer <- function(pkg, default) { 
+    x <- packageDescription(pkg, fields = 'Version')
+    ver <- ifelse(is.na(x), default, x)
+    paste0('https://github.com/lcolladotor/', pkg, ' - R package version ', ver)
+}
+c(
+    bibentry(bibtype="manual",
+        title = "derfinderHelper: derfinder helper package",
+        author = personList(
+            as.person("Leonardo Collado-Torres"),
+            as.person("Andrew E. Jaffe"),
+            as.person("Jeffrey T. Leek")
+        ),
+        year = 2014,
+        url = "http://www.bioconductor.org/packages/release/bioc/html/derfinderHelper.html",
+        note = pkgVer('derfinderHelper', '1.0.2')
+    ),
+    bibentry(bibtype="manual",
+        title = "derfinder: Annotation-agnostic differential expression analysis of RNA-seq data at base-pair resolution",
+        author = personList(
+            as.person("Leonardo Collado-Torres"),
+            as.person("Alyssa C. Frazee"),
+            as.person("Andrew E. Jaffe"),
+            as.person("Jeffrey T. Leek")
+        ),
+        year = 2014,
+        url = "http://www.bioconductor.org/packages/release/bioc/html/derfinder.html",
+        note = pkgVer('derfinder', '1.0.6')
+    )
+)
