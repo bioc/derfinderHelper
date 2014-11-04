@@ -56,7 +56,7 @@
 #' @author Leonardo Collado-Torres, Jeff Leek
 #' @export
 #' @importFrom S4Vectors Rle
-#' @importMethodsFrom S4Vectors as.numeric Reduce
+#' @importMethodsFrom S4Vectors as.numeric Reduce sapply
 #' @importMethodsFrom IRanges as.data.frame as.matrix ncol nrow which '['
 #' unlist
 #' @importFrom Matrix sparseMatrix
@@ -209,7 +209,8 @@ fstats.apply <- function(index=Rle(TRUE, nrow(data)), data, mod, mod0,
     scalefac.log2 <- ifelse(scalefac <= 0, 0, log2(scalefac))
     
     ## Build Matrix object from a DataFrame
-    i.list <- sapply(data, function(x) { which(x > scalefac.log2) })
+    i.list <- sapply(data, function(x) { which(x > scalefac.log2) },
+        simplify = FALSE)
     i <- unlist(i.list, use.names=FALSE)
     j <- rep(seq_len(ncol(data)), sapply(i.list, length))
     ll <- unlist(data, use.names=FALSE)

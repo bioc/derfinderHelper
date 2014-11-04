@@ -9,7 +9,7 @@ toyData <- DataFrame(
 
 ## Create the model matrices
 group <- c('A', 'A', 'B', 'B')
-mod.toy <- model.matrix(~ group) 
+mod.toy <- model.matrix(~ group)
 mod0.toy <- model.matrix(~ 0 + rep(1, 4))
 
 

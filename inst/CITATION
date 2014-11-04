@@ -13,7 +13,7 @@ c(
         ),
         year = 2014,
         url = "http://www.bioconductor.org/packages/release/bioc/html/derfinderHelper.html",
-        note = pkgVer('derfinderHelper', '1.0.2')
+        note = pkgVer('derfinderHelper', '1.0.3')
     ),
     bibentry(bibtype="manual",
         title = "derfinder: Annotation-agnostic differential expression analysis of RNA-seq data at base-pair resolution",
