@@ -25,6 +25,6 @@ c(
         ),
         year = 2014,
         url = "http://www.bioconductor.org/packages/release/bioc/html/derfinder.html",
-        note = 'https://github.com/lcolladotor/derfinder - R package version 1.0.6')
+        note = 'https://github.com/lcolladotor/derfinder - R package version 1.0.6'
     )
 )
