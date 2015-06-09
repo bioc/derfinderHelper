@@ -1,11 +1,11 @@
-derfinderHelper [![Build Status](https://travis-ci.org/lcolladotor/derfinderHelper.svg?branch=master)](https://travis-ci.org/lcolladotor/derfinderHelper)
+derfinderHelper [![Build Status](https://travis-ci.org/leekgroup/derfinderHelper.svg?branch=master)](https://travis-ci.org/leekgroup/derfinderHelper)
 ===============
 
 Helper package for [derfinder](https://github.com/lcolladotor/derfinder).
 
 # Installation instructions
 
-Get R 3.1.1 or newer from [CRAN](http://cran.r-project.org/).
+Get R 3.2.0 from [CRAN](http://cran.r-project.org/).
 
 ```R
 ## From Bioconductor
@@ -15,7 +15,7 @@ biocLite('derfinderHelper')
 
 # Vignette
 
-The vignette for this package can be viewed [here](http://lcolladotor.github.io/derfinderHelper/) or via [Bioconductor's website](http://www.bioconductor.org/packages/devel/bioc/html/derfinderHelper.html).
+The vignette for this package can be viewed [here](http://leekgroup.github.io/derfinderHelper/) or via [Bioconductor's website](http://www.bioconductor.org/packages/devel/bioc/html/derfinderHelper.html).
 
 
 # Citation
