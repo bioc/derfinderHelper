@@ -1,14 +1,14 @@
 Package: derfinderHelper
 Type: Package
 Title: derfinder helper package
-Version: 1.4.0
-Date: 2015-06-19
+Version: 1.4.1
+Date: 2015-11-02
 Authors@R: c(person("Leonardo", "Collado-Torres", role = c("aut", "cre"), email
     = "lcollado@jhu.edu"), person(c("Andrew", "E."), "Jaffe", role = "aut",
     email = "andrew.jaffe@libd.org"), person(c("Jeffrey", "T."), "Leek",
     role = c("aut", "ths"), email = "jtleek@gmail.com"))
 Depends:
-    R(>= 3.2)
+    R(>= 3.2.2)
 Imports:
     IRanges (>= 1.99.27),
     Matrix,
@@ -17,7 +17,7 @@ Suggests:
     devtools (>= 1.6),
     knitcitations (>= 1.0.1),
     knitr (>= 1.6),
-    knitrBootstrap (>= 0.9.0),
+    BiocStyle,
     rmarkdown (>= 0.3.3),
     testthat
 VignetteBuilder: knitr

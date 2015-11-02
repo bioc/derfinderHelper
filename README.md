@@ -4,6 +4,8 @@ Status: Travis CI [![Build Status](https://travis-ci.org/leekgroup/derfinderHelp
 Bioc-release <a href="http://www.bioconductor.org/packages/release/bioc/html/derfinderHelper.html#archives"><img border="0" src="http://www.bioconductor.org/shields/availability/release/derfinderHelper.svg" title="Whether the package is available on all platforms; click for details."></a> <a href="http://bioconductor.org/checkResults/release/bioc-LATEST/derfinderHelper/"><img border="0" src="http://www.bioconductor.org/shields/build/release/bioc/derfinderHelper.svg" title="build results; click for full report"></a>,
 Bioc-devel <a href="http://www.bioconductor.org/packages/devel/bioc/html/derfinderHelper.html#archives"><img border="0" src="http://www.bioconductor.org/shields/availability/devel/derfinderHelper.svg" title="Whether the package is available on all platforms; click for details."></a> <a href="http://bioconductor.org/checkResults/devel/bioc-LATEST/derfinderHelper/"><img border="0" src="http://www.bioconductor.org/shields/build/devel/bioc/derfinderHelper.svg" title="build results; click for full report"></a>.
 
+Bioc-release <a href="https://bioconductor.org/developers/how-to/unitTesting-guidelines/#coverage"><img border="0" src="http://www.bioconductor.org/shields/coverage/release/derfinderHelper.svg" title="Test coverage percentage, or 'unknown'"></a>, Bioc-devel <a href="https://bioconductor.org/developers/how-to/unitTesting-guidelines/#coverage"><img border="0" src="http://www.bioconductor.org/shields/coverage/devel/derfinderHelper.svg" title="Test coverage percentage, or 'unknown'"></a>
+
 derfinderHelper
 ===============
 
