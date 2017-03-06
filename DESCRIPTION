@@ -27,6 +27,6 @@ Description: Helper package for speeding up the derfinder package when using
 License: Artistic-2.0
 LazyData: false
 URL: https://github.com/leekgroup/derfinderHelper
-BugReports: https://github.com/leekgroup/derfinderHelper/issues
+BugReports: https://support.bioconductor.org/t/derfinderHelper
 biocViews: DifferentialExpression, Sequencing, RNASeq, Software
 RoxygenNote: 5.0.1
